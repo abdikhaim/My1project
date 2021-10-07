@@ -3,7 +3,7 @@
 # Copyleft (c) by Nurlan Abdi
 
 
-name: My-GitHubActions-Basics
+name: CI/CD PipeLine
 env:
   APPLICATION_NAME    : "MyFlask"
   DEPLOY_PACKAGE_NAME : "flask-deploy-ver-${{ github.sha }}"
